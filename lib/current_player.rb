@@ -14,12 +14,6 @@ def current_player(board)
   result = 'O'
   
   
-  if counter % 2 == 0
-    result = 'X'
-  else
-    result = 'O'
-  end
-  
   if counter.even?
     result='X'
   end
